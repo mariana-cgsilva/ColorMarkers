@@ -6,20 +6,31 @@ h1 {
     width: 200px;
     height: 25px;
     margin: 10px auto;
-  }
+}
   
-  .red {
+.red {
     background-color: red;
-  }
+
+    /*How to use a color transition, or gradient (color transitions into another), on an element:
+    The CSS linear-gradient function lets you control the direction of the transition along a line, and which colors are used.
+    To remember: the linear-gradient function creates an image element, and is usually paired with the background property which can accept an image as a value.
+    Transition red to yellow: 
+    .red {
+    background: rgb(255, 0, 0);
+    background: linear-gradient(to right, red, yellow);
+    }
+*/
+}
   
-  .green {
-    background-color: green;   
+.green {
+    background-color: green;  
+
     /*color #00FF00 means:  0% red, 100% green, and 0% blue and is the same as rgb(0, 255, 0)
     This is according to the hexadecimal values 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
     Here, the hex color 00 is 0% of that color, and FF is 100%.*/
-  }
+}
   
-  .blue {
+.blue {
     background-color: blue;
 
     /*The HSL color model, or hue, saturation, and lightness, is another way to represent colors.
@@ -28,8 +39,8 @@ h1 {
     Saturation is the intensity of a color from 0%, or gray, to 100% for pure color. You must add the percent sign % to the saturation and lightness values.
     Lightness is how bright a color appears, from 0%, or complete black, to 100%, complete white, with 50% being neutral.
     For pure blure: 
-    .blue {background-color: hsl(240, 100%, 50%); 
+    .blue {background-color: hsl(240, 100%, 50%); */
 }
 
-}
+
   
