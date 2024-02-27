@@ -47,10 +47,12 @@ Here's how the offsetX and offsetY values work:
   
   .green {
     background: linear-gradient(#55680D, #71F53E, #116C31);
+    box-shadow: 5px 5px 5px green;                        /*Third 5px is blurRadius*/
   }
   
   .blue {
     background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    box-shadow: 0px 0px 0px 5px blue;                      /*5px is spreadRadius*/
   }
 
 
